@@ -1,34 +1,52 @@
-<h1>here are my favourite songs!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>My Favourite Things</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta id="request-method" name="request-method" content="<?php echo htmlentities($_SERVER['REQUEST_METHOD']); ?>">
+      <script type="text/javascript">
+          alert(document.getElementById("request-method").content);
+      </script>
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <h1>My favourite songs</h1>
 
-<p> 
-  soccer mommy - yellow is the color of her eyes
-</p>
-<audio controls>
-  <source src="yellow.mp3" type="audio/mpeg">
-</audio>
-<br>
+    <p> 
+      soccer mommy - yellow is the color of her eyes
+    </p>
+    <audio controls>
+      <source src="yellow.mp3" type="audio/mpeg">
+    </audio>
+    <br>
 
-<p> 
-  julien baker - everybody does
-</p>
-<audio controls>
-  <source src="everybody.mp3" type="audio/mpeg">
-</audio>
-<br>
+    <p> 
+      julien baker - everybody does
+    </p>
+    <audio controls>
+      <source src="everybody.mp3" type="audio/mpeg">
+    </audio>
+    <br>
 
-<p>
-  julien baker - everybody does
-</p>
-<audio controls>
-  <source src="bones.mp3" type="audio/mpeg">
-</audio>
-<br>
+    <p>
+      shakey graves - roll the bones
+    </p>
+    <audio controls>
+      <source src="bones.mp3" type="audio/mpeg">
+    </audio>
+    <br>
 
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
-<p>
-BONUS: here is the wikipedia page for HPMOR
-</p>
-<iframe src="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality" height="500" width="900">
+    <h1>My favourite book</h1>
+    <p>
+    here is the wikipedia page for HPMOR
+    </p>
+    <iframe src="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality" height="500" width="900">
+    </iframe>
+  </body>
+</html>
